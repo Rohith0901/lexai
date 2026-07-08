@@ -56,6 +56,7 @@ bashcd server && npm run dev
 bashcd client && npm run dev
 8. Open your browser
 http://localhost:5173
+
 Project Structure
 lexai/
 ├── client/
@@ -83,6 +84,8 @@ lexai/
 │   │   └── document.js
 │   └── package.json
 └── .gitignore
+
+
 API Endpoints
 MethodEndpointDescriptionPOST/api/auth/registerRegister new userPOST/api/auth/loginLogin existing userPOST/api/document/analyzeAnalyze uploaded PDFPOST/api/document/askAsk question about document
 How It Works
